@@ -92,6 +92,7 @@ namespace FreeCourse.Services.Catalog.Services
         {
             var newCourses = _mapper.Map<Course>(courseCreateDto);
             newCourses.CreatedTime =DateTime.Now;
+            await _courseCollection.InsertOneAsync(newCourses);
 
             return Response<CourseDto>.Success(_mapper.Map<CourseDto>(newCourses), 200);
 

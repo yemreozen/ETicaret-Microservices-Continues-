@@ -15,13 +15,13 @@ namespace FreeCourse.Services.Catalog.Services
 
         private readonly IMapper _mapper;
 
-        public CategoryService(IMapper mapper,IDatebaseSettings datebaseSettings)
+        public CategoryService(IMapper mapper,IDatebaseSettings databaseSettings)
         {
-            var client = new MongoClient(datebaseSettings.ConnectionString);
-            var database = client.GetDatabase(datebaseSettings.DatabaseName);
+            var client = new MongoClient(databaseSettings.ConnectionString);
+            var database = client.GetDatabase(databaseSettings.DatabaseName);
 
 
-            _categoryCollection = database.GetCollection<Category>(datebaseSettings.CategoryCollectionName);
+            _categoryCollection = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);
             _mapper = mapper;
         }
 

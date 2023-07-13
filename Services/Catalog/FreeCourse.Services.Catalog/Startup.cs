@@ -33,7 +33,7 @@ namespace FreeCourse.Services.Catalog
 
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
-            services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
+            services.Configure<DatabaseSettings>(Configuration.GetSection("DatebaseSettings"));
             services.AddSingleton<IDatebaseSettings>(sp =>
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
