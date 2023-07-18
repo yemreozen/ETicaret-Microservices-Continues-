@@ -7,8 +7,8 @@ ayağa kaldırılacaktır. İlerleyen süreçte ise RabitMQ ile kuyruklama mant�
 Güncelleme sağlandıkça buraya da güncel verileri yazmış olacağım.
 
 Hali hazırda testleri başarılı geçmiş API'lar:
-Catalog Microservice : 11 API
-Identity Server Microservice :2 API
+Catalog Microservice : 11 API,
+Identity Server Microservice :2 API,
 Photo Stock Microservice : 2 API
 
 
