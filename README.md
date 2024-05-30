@@ -13,7 +13,7 @@ Photo Stock Microservice : 2 API
 
 
 
-Keywords: Docker,MongoDb,Identity Server, Redis,JWS (Json Web Token), MSSql
+Keywords: Docker,MongoDb,Identity Server, Redis,JWT (Json Web Token), MSSql
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
