@@ -1,9 +1,9 @@
-Bu proje Docker ile containerlara ayrılarak ayağa kaldırılmıştır. Mongodb ile ilişkisel alanların ihtiyaç duyulmadığı noktalarda verimliliği 
+Bu proje Docker ile containerlarla ayrılarak ayağa kaldırılmıştır. Mongodb ile ilişkisel alanların ihtiyaç duyulmadığı noktalarda verimliliği 
 arttırmak için dockerize edilerek kullanılmıştıır. Aynı zamanda identity server microservisi ile diğer mikro servisler beslenerek database
-işlemleri sağlanmaktadır. Redis kullanarak ise sepet mantığını cashleme ve performansı arttırma çalışmaları yapılmıştır. Yine olmazsa olmaz JWT
+işlemleri sağlanmaktadır. Redis kullanarak ise sepet mantığını cacheleme ve performansı arttırma çalışmaları yapılmıştır. Yine olmazsa olmaz JWT
 (Json Web Token) ile API'lar koruma altına alınmıştır.Client tarafı henüz geliştirilmemiş olup şuan backend mimarisine devam etmekteyim. Bu sayede aslında sürdürülebilir bir E-Ticaret platformunu ayağa kaldırmış
 olacağım. Böylelikle yalnızca frontend tarafında clientlar düzenlenerek aslında bir çok firma için bu mimari güncel teknolojileri kullanarak
-ayağa kaldırılacaktır. İlerleyen süreçte ise RabitMQ ile kuyruklama mantığını yine yapı içerisine dahil edeceğim. Proje çalışmalarım devam etmektedir.
+kullanılmış olunacak. İlerleyen süreçte ise RabitMQ ile kuyruklama mantığını yine yapı içerisine dahil edeceğim. Proje çalışmalarım devam etmektedir.
 Güncelleme sağlandıkça buraya da güncel verileri yazmış olacağım.
 
 Hali hazırda testleri başarılı geçmiş API'lar:
